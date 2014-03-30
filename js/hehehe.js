@@ -44,7 +44,7 @@ if(!( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navi
     $(".iphone-wrapper img.first").show();
     $(".themes-wrapper").hide();
     $(".page6 .footer").removeAttr("style")
-    $.fn.fullpage.moveTo(1); 
+    $.fn.fullpage.moveTo(1);
     calculate();
     $(".section.page1 .inner").show();
     setTimeout(function() {
@@ -293,9 +293,9 @@ if(!( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navi
             $(this).removeClass("active");
           })
           $("div.iphone-wrapper img.fourth").fadeIn(700, function() {
-            $(this).delay(500).animate({
-              "margin-left":"-220px"
-            },400);
+            // $(this).delay(500).animate({
+            //   "margin-left":"-220px"
+            // },400);
             $(this).addClass("active");
           })
         }
